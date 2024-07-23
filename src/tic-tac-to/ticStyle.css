@@ -1,0 +1,29 @@
+.tic-tac-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  border: 1px solid red;
+  margin-top: -10px;
+  margin-left: -10px;
+  float: left;
+  cursor: pointer;
+  align-items: center;
+}
+.status {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.re-game {
+  margin-top: 20px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 1px solid red;
+}
